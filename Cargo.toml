@@ -1,16 +1,13 @@
-
 [workspace]
 members = [
-    "terrain-gen/*",
+    "src/core",
+    "src/macros",
+    "src/stages",
 ]
+
 resolver = "2"
 
 [workspace.dependencies]
-
-terrain-gen-macros = { path = "terrain-gen/macros" }
-terrain-gen-core = { path = "terrain-gen/core" }
-terrain-gen-stages = { path = "terrain-gen/stages" }
-
 anyhow = "1.0.104"
 godot = "0.5.5"
 glam = "0.33.5"

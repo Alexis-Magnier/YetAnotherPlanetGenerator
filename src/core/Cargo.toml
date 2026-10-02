@@ -1,0 +1,12 @@
+[package]
+name = "yapg-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = { workspace = true }
+bitflags = { workspace = true }
+anyhow = { workspace = true }
+inventory = { workspace = true }
+enumflags2 = { workspace = true }
+tracing = { workspace = true }
